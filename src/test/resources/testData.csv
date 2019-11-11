@@ -1,0 +1,3 @@
+browser,  browserVersion,  platformName,  runType
+chrome, 78, "Windows 10", LOCAL,IBM,International Business Machines Corporation,1/2/1962
+firefox, 66, "Windows 10", LOCAL,IBM,International Business Machines Corporation,1/2/1962
