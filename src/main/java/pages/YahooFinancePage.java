@@ -8,7 +8,7 @@ import utils.Action;
 public class YahooFinancePage {
 
     private static final String BASE_URL = "https://finance.yahoo.com/";
-    private static final String PRE_LOCATOR_FOR_QUOTE = "//div[contains(text(),'%s')]";
+    private static final String PRE_LOCATOR_FOR_QUOTE = "//div[@title='%s']";
 
     @FindBy(xpath = "//*[@id='yfin-usr-qry']")
     private WebElement searchForNews;
